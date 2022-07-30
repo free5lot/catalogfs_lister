@@ -1,0 +1,25 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: catalogfs_lister",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/catalogfs_lister.py",
+      "args": [
+        "--source-is-cfsfiles",
+        // "--data-only",
+        // "--data-and-time-only",
+        // "--sha256",
+        // "--continue",
+        "/home/user/projects/tests/source0/",
+        "/home/user/projects/tests/output0/"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
